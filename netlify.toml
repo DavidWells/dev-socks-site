@@ -1,3 +1,7 @@
+# Netlify configuration for Astro static site
 [build]
   command = "npm run build"
   publish = "dist"
+
+# Note: No redirects needed for static site generation.
+# Add [[redirects]] configuration if implementing client-side routing or SPA features.
